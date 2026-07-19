@@ -390,3 +390,14 @@ img, svg { display: block; max-width: 100%; }
   #threat-map, #cyber-canvas, .cursor-aura, .threat-status { display: none; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Certificate-backed achievement additions (V4) */
+.certificate-row { cursor: pointer; }
+.certificate-proof { justify-self: end; white-space: nowrap; color: var(--cyan); font: 850 .58rem/1 var(--mono); letter-spacing: .08em; text-shadow: 0 0 14px rgba(var(--neon-rgb), .45); }
+.certificate-row:hover .certificate-proof { transform: translateX(2px); }
+.certificate-note { margin: 18px 0 0; padding: 12px 14px; border-left: 2px solid var(--cyan); background: rgba(var(--neon-rgb), .035); color: #7f969f; font: 650 .66rem/1.7 var(--mono); }
+.certificate-note span { color: var(--cyan); font-weight: 900; }
+@media (max-width: 720px) {
+  .certificate-proof { grid-column: 2; justify-self: start; margin-top: 8px; }
+}

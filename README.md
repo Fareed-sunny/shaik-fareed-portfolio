@@ -71,5 +71,14 @@ If you deploy to another URL, update the canonical, Open Graph, Twitter, JSON-LD
 
 ## Dynamic visual system
 
-- 3-second rotating neon palette
-- Animated simulated global threat map (visualization only; no external threat-intelligence feed)
+- 3-second rotating neon palette: Cyan, Red, Lime, Gold, and Violet
+- Original animated simulated global threat-map background restored (visualization only; no external threat-intelligence feed)
+
+
+## V4 changes
+
+- Restored the original V2 threat-map background composition and animation effects.
+- Changed only the palette sequence to Cyan, Red, Lime, Gold, and Violet.
+- Retained corrected resume details: rank 14/771, Sunglare Technologies internship, and TATA date Jul 19, 2026.
+- Marked the three Supraja achievement results as certificate-backed and linked them to the updated resume evidence.
+- Note: the resume's certificate hyperlinks reference local JPEG paths and those JPEG files are not embedded in the PDF. Upload the original certificate images to the portfolio assets folder later for direct certificate viewing.

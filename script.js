@@ -13,11 +13,11 @@
   year.textContent = String(new Date().getFullYear());
 
   const palettes = [
-    { primary: '#00f6ff', soft: '#67fbff', rgb: '0, 246, 255', softRgb: '103, 251, 255', secondary: '#8b5cff', secondaryRgb: '139, 92, 255', success: '#5cff9d', successRgb: '92, 255, 157' },
-    { primary: '#ff2bd6', soft: '#ff86e8', rgb: '255, 43, 214', softRgb: '255, 134, 232', secondary: '#7b61ff', secondaryRgb: '123, 97, 255', success: '#39ffcf', successRgb: '57, 255, 207' },
-    { primary: '#b6ff00', soft: '#d9ff73', rgb: '182, 255, 0', softRgb: '217, 255, 115', secondary: '#2f7bff', secondaryRgb: '47, 123, 255', success: '#00ffc8', successRgb: '0, 255, 200' },
-    { primary: '#ff8a00', soft: '#ffc266', rgb: '255, 138, 0', softRgb: '255, 194, 102', secondary: '#ff2d75', secondaryRgb: '255, 45, 117', success: '#8cff66', successRgb: '140, 255, 102' },
-    { primary: '#9f4dff', soft: '#c792ff', rgb: '159, 77, 255', softRgb: '199, 146, 255', secondary: '#00d9ff', secondaryRgb: '0, 217, 255', success: '#ff4fd8', successRgb: '255, 79, 216' }
+    { primary: '#00f6ff', soft: '#67fbff', rgb: '0, 246, 255', softRgb: '103, 251, 255', secondary: '#2f7bff', secondaryRgb: '47, 123, 255', success: '#5cff9d', successRgb: '92, 255, 157' },
+    { primary: '#ff243b', soft: '#ff7887', rgb: '255, 36, 59', softRgb: '255, 120, 135', secondary: '#ffd166', secondaryRgb: '255, 209, 102', success: '#5cff9d', successRgb: '92, 255, 157' },
+    { primary: '#b6ff00', soft: '#d9ff73', rgb: '182, 255, 0', softRgb: '217, 255, 115', secondary: '#00d9ff', secondaryRgb: '0, 217, 255', success: '#ffd166', successRgb: '255, 209, 102' },
+    { primary: '#ffd166', soft: '#ffe5a3', rgb: '255, 209, 102', softRgb: '255, 229, 163', secondary: '#ff243b', secondaryRgb: '255, 36, 59', success: '#00f6ff', successRgb: '0, 246, 255' },
+    { primary: '#a855f7', soft: '#cf9cff', rgb: '168, 85, 247', softRgb: '207, 156, 255', secondary: '#00d9ff', secondaryRgb: '0, 217, 255', success: '#ffd166', successRgb: '255, 209, 102' }
   ];
   let paletteIndex = 0;
   let activePalette = palettes[0];
